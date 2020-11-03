@@ -34,18 +34,18 @@
      # /etc/yum.repos.d/openEuler_x86_64.repo
      [osrepo]
      name=osrepo
-     baseurl=https://repo.openeuler.org/openEuler-20.03-LTS/OS/x86_64/
+     baseurl=https://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-20.03-LTS/OS/x86_64/
      enabled=1
      gpgcheck=1
-     gpgkey=https://repo.openeuler.org/openEuler-20.03-LTS/OS/x86_64/RPM-GPG-KEY-openEuler
+     gpgkey=https://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-20.03-LTS/OS/x86_64/RPM-GPG-KEY-openEuler
      ```
 
 5. 桌面
 
-   - 个人未配置桌面
+   - ~~个人未配置桌面~~ 
    - 如果实在无法忍受命令行，可以安装gnome桌面 [传送门](https://zhuanlan.zhihu.com/p/229861153) 
 
 6. 远程编辑
 
-   - 可以使用xshell远程登录编辑
-   - 
+   - 可以使用xshell远程ssh登录编辑（需要修改sshd_config配置，默认不开启普通用户ssh登录）
+   - 尝试vscode remote (失败ing)
